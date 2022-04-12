@@ -2,16 +2,16 @@ library(ggplot2)
 library(tidyverse)
 library(tidyr)
 
-file1 <- "D:\\CODE\\Rpro\\DataAnalysis\\DataFile\\lanzhou.csv"
-file2 <- "D:\\CODE\\Rpro\\DataAnalysis\\DataFile\\haerbin.csv"
-file3 <- "D:\\CODE\\Rpro\\DataAnalysis\\DataFile\\wulumuqi.csv"
-file4 <- "D:\\CODE\\Rpro\\DataAnalysis\\DataFile\\xian.csv"
-file5 <- "D:\\CODE\\Rpro\\DataAnalysis\\DataFile\\tianjin.csv"
-file6 <- "D:\\CODE\\Rpro\\DataAnalysis\\DataFile\\shanghai.csv"
-file7 <- "D:\\CODE\\Rpro\\DataAnalysis\\DataFile\\guangzhou.csv"
-file8 <- "D:\\CODE\\Rpro\\DataAnalysis\\DataFile\\chengdu.csv"
-file9 <- "D:\\CODE\\Rpro\\DataAnalysis\\DataFile\\nanjing.csv"
-file10 <- "D:\\CODE\\Rpro\\DataAnalysis\\DataFile\\hangzhou.csv"
+file1 <- "lanzhou.csv"
+file2 <- "haerbin.csv"
+file3 <- "wulumuqi.csv"
+file4 <- "xian.csv"
+file5 <- "tianjin.csv"
+file6 <- "shanghai.csv"
+file7 <- "guangzhou.csv"
+file8 <- "chengdu.csv"
+file9 <- "nanjing.csv"
+file10 <- "hangzhou.csv"
 lanzhou <- read.csv(file1, encoding = "UTF-8")
 haerbin <- read.csv(file2, encoding = "UTF-8")
 wulumuqi <- read.csv(file3, encoding = "UTF-8")

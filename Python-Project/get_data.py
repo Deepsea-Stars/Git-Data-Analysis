@@ -7,8 +7,7 @@ import time
 class GetAQI:
 
     def __init__(self):
-        ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)\
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36"
+        ua = "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50"
         self.headers = {
             "User-Agent": ua
         }
@@ -73,11 +72,11 @@ class GetAQI:
                 'PM2.5', 'PM10', 'SO2', 'NO2', 'CO', 'O3']
         test = pd.DataFrame(columns=coln, data=all_list)
         if self.flag:
-            test.to_csv(f'D:\\VScode\\Python\\DataCollection\\AQI\\{self.city}.csv',
+            test.to_csv(f'AQI\\{self.city}.csv',
                         mode='a', encoding='utf-8', index=False)
             self.flag = False
         else:
-            test.to_csv(f'D:\\VScode\\Python\\DataCollection\\AQI\\{self.city}.csv',
+            test.to_csv(f'AQI\\{self.city}.csv',
                         mode='a', encoding='utf-8', index=False, header=False)
 
 
