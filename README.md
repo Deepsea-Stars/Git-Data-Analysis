@@ -13,9 +13,7 @@
 
 ### R:
 
-    install.packages("ggplot2")
-    install.packages("tidyverse")
-    install.packages("tidyr")
+    install.packages(c("ggplot2", "tidyverse", "tidyr"))
 
 ## 文件说明
 
