@@ -5,14 +5,17 @@
 
 ## 相关库下载安装
 
-    Python:
-        pip install requests
-        pip install bs4
-        pip install pandas
-    R:
-        install.packages("ggplot2")
-        install.packages("tidyverse")
-        install.packages("tidyr")
+### Python:
+
+    pip install requests
+    pip install bs4
+    pip install pandas
+
+### R:
+
+    install.packages("ggplot2")
+    install.packages("tidyverse")
+    install.packages("tidyr")
 
 ## 文件说明
 
